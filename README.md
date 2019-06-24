@@ -12,4 +12,4 @@ A blog [post](https://medium.com/@tom.barrett1997/sparkify-an-introduction-to-sp
 The notebook in this repo consists of data exploration, feature engineering and modelling required to write the blog post.
 
 ## Results
-A Logistic Regression model was trained using the subset of data. A Multi Classification Evaluator that gave a result of 52.3% accuracy and an F1 score of 0.474was used. Since churn is a binary value these results aren’t great but due to the small subset of data used we couldn’t expect very successful results.
+A Random Forest Classifier was trained using the subset of data provided in IBM Watson Studio. Using a cross validator, an accuracy of 90.9% and a F1 score of 0.897 was recorded.
